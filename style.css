@@ -1,0 +1,182 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header{
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    background-image: url('https://unpam.ac.id/wp-content/uploads/2016/11/unpam-viktor3.jpeg');
+    background-size: cover;
+    background-position: center center; 
+    height: 332px; 
+    color: #fff; 
+    text-align: center;
+    padding-top: 100px; 
+}
+
+img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+table{
+    margin: auto; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 24px;
+    white-space: nowrap; 
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite; 
+}
+
+@keyframes typing{
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%; 
+    }
+}
+
+@keyframes blink-caret{
+    from, to {
+        border-color: transparent; 
+    }
+    50% {
+        border-color: #fff;
+    }
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+main{
+    padding: 2rem;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+section a{
+    background: #212121;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+h2{
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+a{
+    color: #007bff;
+}
+
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .boy{
+    left: 45%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+.images{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 380px;
+    top: 0px;
+}
+
+.images img{
+    height: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(100%);
+    transition: bottom 1s, left 1s;
+}
+
+
+nav {
+    position: absolute; /* Membuat navigasi menjadi posisi absolut */
+    top: 15%; /* Posisikan navigasi di tengah header secara vertikal */
+    right: 750px; /* Jarak dari tepi kanan header */
+    transform: translateY(-50%); /* Menggeser navigasi vertikal untuk mendapatkan posisi tengah */
+}
+
+nav ul {
+    list-style: none; /* Hilangkan bullet list */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block; /* Mengatur teks dalam satu baris */
+    margin-right: 20px; /* Jarak antar teks */
+}
+
+nav a {
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Hilangkan dekorasi hyperlink */
+    font-size: 16px; /* Ukuran font teks */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Tambahkan garis bawah saat hover pada teks */
+}
